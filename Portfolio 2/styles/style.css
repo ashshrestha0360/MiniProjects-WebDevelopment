@@ -1,0 +1,77 @@
+body{
+    margin: 0px;
+}
+
+.container{
+    height: 600px;
+    /* background-color: darkgrey; */
+    background-image: url("../images/pexels-buro-millennial-1438081.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.nav_menu{
+    background-color: crimson;
+    padding: 25px 0px;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    margin: 0px 755px 0px 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: larger;
+}
+
+.links a{
+    padding: 0px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+}
+
+.background{
+    text-align: right;
+    margin: 225px 90px 0px 0px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: .5;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+#btn1{
+    padding: 12px 25px;
+    background-color: crimson;
+    border: none;
+}
+
+#btn1 a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.main_page_about{
+    margin: 0% 0% 0% 5%;
+}
+
+.about_center{
+    text-align: center;
+}
+
+.about_left{
+    margin: 0px 100px 0px 0px;
+    width: 50%;
+    float: right;
+}
