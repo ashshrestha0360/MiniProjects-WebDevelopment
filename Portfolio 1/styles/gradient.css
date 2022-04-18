@@ -1,0 +1,26 @@
+h1 {
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-size: 45px;
+  }
+
+  .diamond, .diamond div {
+    margin: 0 auto;
+    /*transform-origin: 50% 50%;*/
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+  }
+  .diamond {
+    transform: rotate(45deg) translateY(10px);
+  }
+  .diamond .diamond_transform {
+    width: 355px;
+    height: 355px;
+    transform: rotate(-45deg) translateY(-74px);
+  }
+  .diamond .diamond_transform img {
+    width: 100%;
+    height: auto;
+  }

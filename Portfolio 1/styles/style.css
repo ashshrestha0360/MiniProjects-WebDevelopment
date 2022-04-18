@@ -1,0 +1,294 @@
+/*This CSS is humbly belongs to Aashish Shrestha. Any change or deleting of elements is not allowed*/
+
+/*body*/
+body{
+    margin: 25px 50px 50px 50px;
+    background: #16A085;  
+    background: -webkit-linear-gradient(to right, #F4D03F, #16A085);  
+    background: linear-gradient(to right, #F4D03F, #16A085); 
+
+ 
+}
+
+/*header*/
+#page_title{
+    font-size: 250%;
+    float: left;
+    font-family: Tahoma, sans-serif ;
+    margin-left: 50px;
+    color: white;
+}
+
+nav{
+    text-align-last: right;
+    padding-top:35px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,sans-serif;
+    margin-right:40px;
+    
+}
+
+/*Links effects*/
+
+  a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+    font-size: 90%;
+  }
+
+  a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+ 
+
+/*div*/
+
+div{
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    padding:0px;
+    background-color: white;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.row {
+    display: flex;
+    border:1px solid white;
+    border-radius: 10px;
+
+    
+  }
+ 
+.column1{
+      margin-left:25px;
+      margin-top:15px;
+  }
+
+  .column2{
+    margin-left:25px;
+    margin-right: 0px;
+    margin-top:25px;
+  }
+
+
+#left{
+    height: 600px;
+    width: 565px;
+    border-radius: 10px;
+}
+
+.zoom1{
+  height: 600px;
+  width: 565px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.zoom1 img {
+  transition: transform .5s ease;
+}
+
+.zoom1:hover img {
+  transform: scale(1.5);
+  border-radius: 10px;
+}
+
+.pic{
+  height: 400px;
+  width: 450px;
+  border-radius: 10px;
+  margin-left: 0px;
+  margin-bottom: 25px;
+}
+
+.zoom2{
+  height: 400px;
+  width: 450px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.zoom2 img {
+  transition: transform .5s ease;
+}
+
+.zoom2:hover img {
+  transform: scale(1.5);
+  border-radius: 10px;
+}
+
+.about_description_left{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, sans-serif;
+  font-size:50px;
+  padding-top: 125px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.about_description_right{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, sans-serif;
+  font-size:50px;
+  text-align: center;
+  padding-top:95px;
+  margin:15px;
+}
+
+strong{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 350%;
+}
+
+#dim{
+    font-style: bold;
+    font-size: 100%;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, sans-serif;
+    padding-top:50px;
+}
+
+#who{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 120%;
+}
+
+#container{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+    font-size:15px;
+    text-align: justify;
+    font-style: italic;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.gallery_row{
+  padding-left:30px;
+  padding-right:30px;
+  padding-top:30px;
+  padding-bottom:30px;
+  border-radius:15px;
+}
+.column {
+  float: left;
+  margin:auto;
+  padding: auto;
+}
+
+.gallery_row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.gallery{
+  height: 250px;
+  width:300px;
+  border-radius: 5px;
+}
+
+.zoom3{
+  height: 250px;
+  width: 300px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.zoom3 img {
+  transition: transform .5s ease;
+}
+
+.zoom3:hover img {
+  transform: scale(1.5);
+  border-radius: 5px;
+}
+
+
+/*Form*/
+#form{
+  padding: 25px;
+  margin: 25px;
+}
+.center {
+  display: block;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 50%;
+  padding: 50px;
+  height: 605px;
+  width: 500px;
+}
+
+  
+#form_description{
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+input[type=text],input[type=email],textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+#message{
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100px;
+}
+
+#send_button{
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+  font-style: bold;
+  background-color: rgb(33, 216, 176);
+  cursor: pointer;
+}
+
+#send_button:hover{
+  background-color: teal;
+}
+
+label{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, sans-serif;
+}
+
+/*footer*/
+footer{
+    text-align: center;
+    margin: 30px;
+    font-family: Tahoma, sans-serif ;
+    color: white;
+    font-size:120%;
+    font-style: bold;
+}
